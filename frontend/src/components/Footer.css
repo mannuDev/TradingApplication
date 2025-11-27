@@ -1,0 +1,124 @@
+.app-footer {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  border-top: 1px solid var(--glass-border);
+  margin-top: var(--space-3xl);
+  padding: var(--space-2xl) var(--space-lg);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-xl);
+  margin-bottom: var(--space-xl);
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: 700;
+  background: var(--gradient-neon);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: var(--space-sm);
+}
+
+.footer-tagline {
+  color: rgba(247, 244, 233, 0.6);
+  font-size: 14px;
+  font-style: italic;
+}
+
+.footer-heading {
+  color: var(--sky-blue-neon);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: var(--space-sm);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-text {
+  color: rgba(247, 244, 233, 0.7);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-link {
+  color: var(--mint-neon);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  color: var(--sky-blue-neon);
+  text-shadow: 0 0 10px rgba(75, 179, 253, 0.5);
+}
+
+.social-links {
+  display: flex;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.social-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  color: var(--sky-blue-neon);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.social-link:hover {
+  background: var(--gradient-primary);
+  border-color: var(--sky-blue-neon);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: var(--neon-blue);
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--glass-border);
+  text-align: center;
+}
+
+.footer-copyright {
+  color: rgba(247, 244, 233, 0.6);
+  font-size: 14px;
+  margin-bottom: var(--space-sm);
+}
+
+.footer-note {
+  color: rgba(247, 244, 233, 0.5);
+  font-size: 12px;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+  
+  .footer-bottom {
+    text-align: left;
+  }
+}
+

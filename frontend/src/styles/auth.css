@@ -1,0 +1,137 @@
+.auth-page {
+  min-height: calc(100vh - 200px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-xl) var(--space-lg);
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 480px;
+  padding: var(--space-2xl);
+  animation: fadeInUp 0.5s ease;
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.auth-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--cream);
+  margin: var(--space-lg) 0 var(--space-sm) 0;
+  background: var(--gradient-neon);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.auth-subtitle {
+  color: rgba(247, 244, 233, 0.6);
+  font-size: 16px;
+  font-style: italic;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.form-group-futuristic {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.form-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--sky-blue-neon);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.auth-button {
+  margin-top: var(--space-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+}
+
+.auth-footer {
+  margin-top: var(--space-xl);
+  text-align: center;
+}
+
+.auth-footer-text {
+  color: rgba(247, 244, 233, 0.6);
+  font-size: 14px;
+}
+
+.auth-link {
+  color: var(--mint-neon);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.auth-link:hover {
+  color: var(--sky-blue-neon);
+  text-shadow: 0 0 10px rgba(75, 179, 253, 0.5);
+}
+
+.error-message-futuristic {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-md);
+  background: rgba(244, 67, 54, 0.1);
+  border: 1px solid rgba(244, 67, 54, 0.3);
+  border-radius: 12px;
+  color: #ff6b6b;
+  font-size: 14px;
+  margin-bottom: var(--space-lg);
+  animation: shake 0.5s ease;
+}
+
+.error-message-futuristic svg {
+  flex-shrink: 0;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  75% { transform: translateX(10px); }
+}
+
+.analyzing-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+

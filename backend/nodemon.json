@@ -1,0 +1,17 @@
+{
+  "watch": ["src"],
+  "ext": "js,json",
+  "ignore": [
+    "src/**/*.test.js",
+    "node_modules",
+    "src/uploads/**",
+    "*.log",
+    ".env"
+  ],
+  "delay": 3000,
+  "verbose": false,
+  "restartable": "rs",
+  "signal": "SIGUSR2",
+  "killTimeout": 5000
+}
+
