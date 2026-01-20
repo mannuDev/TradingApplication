@@ -32,17 +32,18 @@ A full-stack financial trading application built with Node.js, Express, MongoDB,
 **🎬 Application Demo**
 
 ### 🔐 Authentication
-![Login Page](<img width="1919" height="705" alt="image" src="https://github.com/user-attachments/assets/1a3703da-f9fc-40c9-8e71-0ab77725d4f2" />)
+**Login Page**
+<img width="1919" height="705" alt="image" src="https://github.com/user-attachments/assets/1a3703da-f9fc-40c9-8e71-0ab77725d4f2" />
 
 ### 📊 Product Listing
-![Product List](<img width="1919" height="771" alt="image" src="https://github.com/user-attachments/assets/9905614d-0270-45f4-b74d-5fa542935d2e" />)
+<img width="1919" height="771" alt="image" src="https://github.com/user-attachments/assets/9905614d-0270-45f4-b74d-5fa542935d2e" />
 
 ### 📈 Product Details & Chart
-![Product Details](<img width="1919" height="847" alt="image" src="https://github.com/user-attachments/assets/dc8d3140-12e0-475d-8708-2426fb5d373f" />)
+<img width="1919" height="847" alt="image" src="https://github.com/user-attachments/assets/dc8d3140-12e0-475d-8708-2426fb5d373f" />
 
 ### 💼 Portfolio Dashboard
-![Portfolio](<img width="1913" height="795" alt="image" src="https://github.com/user-attachments/assets/8571815e-339a-4e42-8e4f-7beb920cddc5" />,
-<img width="1919" height="842" alt="image" src="https://github.com/user-attachments/assets/d1158baf-34d3-492b-852b-5cf34b564ecb" />)
+<img width="1913" height="795" alt="image" src="https://github.com/user-attachments/assets/8571815e-339a-4e42-8e4f-7beb920cddc5" />,
+<img width="1919" height="842" alt="image" src="https://github.com/user-attachments/assets/d1158baf-34d3-492b-852b-5cf34b564ecb" />
 
 ## Tech Stack
 
