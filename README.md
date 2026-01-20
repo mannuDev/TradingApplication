@@ -66,7 +66,7 @@ npm install
 3. Create a `.env` file in the `backend` directory with the following variables:
 ```
 PORT=5000
-MONGO_URI=mongodb+srv://mannu:mannu%409988@mini-trading-app.ochevnx.mongodb.net/
+MONGO_URI=DB_URI
 JWT_SECRET=yourSecretKey
 ```
 
